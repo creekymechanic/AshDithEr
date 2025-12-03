@@ -1,0 +1,100 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run video_to_video help",
+			"type": "shell",
+			"command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+			"args": [
+				"-m",
+				"pixforge.video_to_video",
+				"-h"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run video_to_video command",
+			"type": "shell",
+			"command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+			"args": [
+				"-m",
+				"pixforge.video_to_video",
+				"--input",
+				"C:\\Users\\asher\\Videos\\art 212\\2098989-uhd_3840_2160_30fps.mp4",
+				"--output",
+				"C:\\Users\\asher\\Videos\\art 212\\teste.mp4",
+				"--pixel",
+				"16",
+				"--colors",
+				"32",
+				"--dither",
+				"bayer2",
+				"--dither-stage",
+				"after-upscale2",
+				"--dither-scale",
+				"1",
+				"--final-scale",
+				"4",
+				"--overwrite"
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run video_to_video command again",
+			"type": "shell",
+			"command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+			"args": [
+				"-m",
+				"pixforge.video_to_video",
+				"--input",
+				"C:\\Users\\asher\\Videos\\art 212\\2098989-uhd_3840_2160_30fps.mp4",
+				"--output",
+				"C:\\Users\\asher\\Videos\\art 212\\teste.mp4",
+				"--pixel",
+				"16",
+				"--colors",
+				"32",
+				"--dither",
+				"bayer2",
+				"--dither-stage",
+				"after-upscale2",
+				"--dither-scale",
+				"1",
+				"--final-scale",
+				"4",
+				"--overwrite"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run video_to_video command (pipe)",
+			"type": "shell",
+			"command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+			"args": [
+				"-m",
+				"pixforge.video_to_video",
+				"--input",
+				"C:\\Users\\asher\\Videos\\art 212\\2098989-uhd_3840_2160_30fps.mp4",
+				"--output",
+				"C:\\Users\\asher\\Videos\\art 212\\teste.mp4",
+				"--pixel",
+				"16",
+				"--colors",
+				"32",
+				"--dither",
+				"bayer2",
+				"--dither-stage",
+				"after-upscale2",
+				"--dither-scale",
+				"1",
+				"--final-scale",
+				"4",
+				"--overwrite"
+			],
+			"group": "build"
+		}
+	]
+}

@@ -1,0 +1,5 @@
+numpy>=1.23
+Pillow>=10.0.0
+numba>=0.59
+opencv-python>=4.9.0
+ffmpeg-python>=0.2.0

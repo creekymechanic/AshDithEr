@@ -1,0 +1,17 @@
+C:/Users/asher/Documents/code/AshDith/.venv/Scripts/python.exe -m pixforge.video_frames `
+  -i "C:\Users\asher\Downloads\beach.png" `
+  -o "C:\Users\asher\Downloads\beach2.png" `
+  --pixel 16 `
+  --colors 64 `
+  --dither bayer2 `
+  --dither-stage after-upscale2 `
+  --dither-scale 1 `
+  --scale 4
+
+
+  ____
+
+
+  python -m pixforge.video_to_video --input "C:\Users\asher\Videos\art 212\2098989-uhd_3840_2160_30fps.mp4" --output "C:\Users\asher\Videos\art 212\teste.mp4" `
+  --pixel 16 --colors 32 --dither bayer2 --dither-stage after-upscale2 `
+  --dither-scale 1 --final-scale 4 --overwrite
