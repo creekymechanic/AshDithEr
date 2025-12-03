@@ -1,3 +1,5 @@
+note: this is ai slop. its usable, but more as a demo than anything. i wanted to see how hard it would be to make this, and i care more about the image output than the code so yea.
+
 # AshDithEr
 
 Pixelate, upscale, and dither images and videos using fast, modular NumPy pipelines. Includes multiple error-diffusion and ordered (Bayer) dither methods, flexible dither placement, adjustable grain size, a simple GUI, and video pipelines (MP4→MP4 or via PNG frames).
