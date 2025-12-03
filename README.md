@@ -1,8 +1,23 @@
-note: this is ai slop. its usable, but more as a demo than anything. i wanted to see how hard it would be to make this, and i care more about the image output than the code so yea.
+note: the code is ai slop. its usable, but more as a demo than anything. i wanted to see how hard it would be to make this, and i care more about the image output than the code so yea.
 
 # AshDithEr
 
-Pixelate, upscale, and dither images and videos using fast, modular NumPy pipelines. Includes multiple error-diffusion and ordered (Bayer) dither methods, flexible dither placement, adjustable grain size, a simple GUI, and video pipelines (MP4→MP4 or via PNG frames).
+
+<img src="images/Screenshot 2025-11-15 211240.png" width="300">
+<img src="images/bem5.png" width="300">
+
+tool
+make images pixelated and then dither them idk
+you can do video as well but its kinda broken idk (for now)
+
+this idea is from my brain. 
+ok well i think i accidentally did this once and i thought it would be cool to have a tool that does it. 
+
+send me a message if you make some cool images, videos or art work with this i wanna see.
+
+thank you.
+
+may or may not be updated, ill see.
 
 ## Features
 
